@@ -24,13 +24,6 @@ Este widget se instala tan fácil como el de AfterShip, con solo **2 líneas de 
 
 Abre `demo.html` en tu navegador para ver el widget funcionando.
 
-## ¿Cómo funciona?
-
-El widget:
-- Se carga automáticamente desde el script
-- Busca todos los elementos con clase `track-button`
-- Los reemplaza con el componente React funcional
-- Al hacer clic, consulta una API y muestra la respuesta
 
 ## Desarrollo
 
@@ -45,7 +38,3 @@ npm run start
 - `dist/track-widget.js` - Widget standalone para CDN
 - `demo.html` - Demo de instalación fácil
 - `src/` - Código fuente React (para desarrollo)
-
----
-
-**¡Listo!** Ahora puedes usar el widget en cualquier sitio web con solo 2 líneas de código, igual que AfterShip. 
