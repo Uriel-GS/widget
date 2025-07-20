@@ -1,0 +1,12 @@
+.as-track-button-widget {
+  display: inline-block;
+}
+.as-track-button {
+  transition: background 0.2s, opacity 0.2s;
+}
+.as-track-button--large {
+  font-weight: bold;
+}
+.as-track-button--small {
+  font-weight: normal;
+} 

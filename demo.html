@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Widget Rastreo - Instalación Fácil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .demo-section {
+            background: #f5f5f5;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        .code {
+            background: #333;
+            color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: monospace;
+            white-space: pre-wrap;
+        }
+        .widget-demo {
+            text-align: center;
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>🚚 Widget de Rastreo - Instalación Fácil</h1>
+    
+    <p>Este widget se instala tan fácil como el de AfterShip, con solo 2 líneas de código:</p>
+    
+    <div class="demo-section">
+        <h3>1. Cargar el widget (después del &lt;body&gt;)</h3>
+        <div class="code">&lt;div id="track-widget-root"&gt;&lt;/div&gt;
+&lt;script src="dist/track-widget.js"&gt;&lt;/script&gt;</div>
+    </div>
+    
+    <div class="demo-section">
+        <h3>2. Usar el botón donde quieras</h3>
+        <div class="code">&lt;div class="track-button" data-size="large"&gt;&lt;/div&gt;</div>
+    </div>
+    
+    <h2>Demo del Widget:</h2>
+    <div class="widget-demo">
+        <!-- Aquí está el botón del widget -->
+        <div class="track-button" data-size="large"></div>
+    </div>
+    
+    <h2>Opciones disponibles:</h2>
+    <ul>
+        <li><strong>data-size="large"</strong> - Botón grande (por defecto)</li>
+        <li><strong>data-size="small"</strong> - Botón pequeño</li>
+    </ul>
+    
+    <div class="widget-demo">
+        <h3>Ejemplo con botón pequeño:</h3>
+        <div class="track-button" data-size="small"></div>
+    </div>
+    
+    <h2>¿Cómo funciona?</h2>
+    <p>El widget:</p>
+    <ul>
+        <li>Se carga automáticamente desde el script</li>
+        <li>Busca todos los elementos con clase <code>track-button</code></li>
+        <li>Los reemplaza con el componente React funcional</li>
+        <li>Al hacer clic, consulta una API y muestra la respuesta</li>
+    </ul>
+    
+    <!-- Cargar el widget (después del body) -->
+    <div id="track-widget-root"></div>
+    <script src="dist/track-widget.js"></script>
+</body>
+</html> 
